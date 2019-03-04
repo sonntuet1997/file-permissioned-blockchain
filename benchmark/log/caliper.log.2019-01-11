@@ -1,0 +1,1741 @@
+2019-01-11T15:00:21+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:00:21+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:00:22+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T15:01:32+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:01:32+07:00 - ERROR [benchmark/composer/main.js]: file /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/composer-tls.json does not exist 
+
+2019-01-11T15:01:45+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:01:46+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:01:46+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: TypeError: Cannot read property 'clients' of undefined
+    at new Client (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/client/client.js:92:33)
+    at Object.module.exports.run (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/bench-flow.js:297:15)
+    at /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:87:29
+    at main (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:91:7)
+    at Object.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:94:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3) 
+
+2019-01-11T15:02:43+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:02:43+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:02:43+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: TypeError: Cannot read property 'clients' of undefined
+    at new Client (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/client/client.js:92:33)
+    at Object.module.exports.run (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/bench-flow.js:297:15)
+    at /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:87:29
+    at main (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:91:7)
+    at Object.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:94:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3) 
+
+2019-01-11T15:03:40+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:03:40+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:03:40+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: TypeError: Cannot read property 'clients' of undefined
+    at new Client (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/client/client.js:92:33)
+    at Object.module.exports.run (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/bench-flow.js:297:15)
+    at /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:87:29
+    at main (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:91:7)
+    at Object.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:94:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3) 
+
+2019-01-11T15:03:57+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:03:57+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:03:57+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: TypeError: Cannot read property 'clients' of undefined
+    at new Client (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/client/client.js:92:33)
+    at Object.module.exports.run (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/bench-flow.js:297:15)
+    at /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:87:29
+    at main (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:91:7)
+    at Object.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:94:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3) 
+
+2019-01-11T15:07:34+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:07:34+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:07:35+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: TypeError: Cannot read property 'clients' of undefined
+    at new Client (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/client/client.js:93:33)
+    at Object.module.exports.run (/home/son/Desktop/sm-questions-hyperledger/caliper/src/comm/bench-flow.js:297:15)
+    at /home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:87:29
+    at main (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:91:7)
+    at Object.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/caliper/benchmark/composer/main.js:94:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3) 
+
+2019-01-11T15:08:40+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:08:40+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:08:41+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T15:11:14+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:11:14+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:11:14+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../../../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s; 
+
+2019-01-11T15:11:18+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:11:18+07:00 - ERROR [bench-flow.js]: Error: Error: Command failed: docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../../../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s;
+.FileNotFoundError: [Errno 2] No such file or directory: './../../../hlfv12/composer/docker-compose-org1.yml'
+Builds, (re)creates, starts, and attaches to containers for a service.
+
+Unless they are already running, this command also starts any linked services.
+
+The `docker-compose up` command aggregates the output of each container. When
+the command exits, all containers are stopped. Running `docker-compose up -d`
+starts the containers in the background and leaves them running.
+
+If there are existing containers for a service, and the service's configuration
+or image was changed after the container's creation, `docker-compose up` picks
+up the changes by stopping and recreating the containers (preserving mounted
+volumes). To prevent Compose from picking up changes, use the `--no-recreate`
+flag.
+
+If you want to force Compose to stop and recreate all containers, use the
+`--force-recreate` flag.
+
+Usage: up [options] [--scale SERVICE=NUM...] [SERVICE...]
+
+Options:
+    -d, --detach               Detached mode: Run containers in the background,
+                               print new container names. Incompatible with
+                               --abort-on-container-exit.
+    --no-color                 Produce monochrome output.
+    --quiet-pull               Pull without printing progress information
+    --no-deps                  Don't start linked services.
+    --force-recreate           Recreate containers even if their configuration
+                               and image haven't changed.
+    --always-recreate-deps     Recreate dependent containers.
+                               Incompatible with --no-recreate.
+    --no-recreate              If containers already exist, don't recreate
+                               them. Incompatible with --force-recreate and -V.
+    --no-build                 Don't build an image, even if it's missing.
+    --no-start                 Don't start the services after creating them.
+    --build                    Build images before starting containers.
+    --abort-on-container-exit  Stops all containers if any container was
+                               stopped. Incompatible with -d.
+    -t, --timeout TIMEOUT      Use this timeout in seconds for container
+                               shutdown when attached or when containers are
+                               already running. (default: 10)
+    -V, --renew-anon-volumes   Recreate anonymous volumes instead of retrieving
+                               data from the previous containers.
+    --remove-orphans           Remove containers for services not defined
+                               in the Compose file.
+    --exit-code-from SERVICE   Return the exit code of the selected service
+                               container. Implies --abort-on-container-exit.
+    --scale SERVICE=NUM        Scale SERVICE to NUM instances. Overrides the
+                               `scale` setting in the Compose file if present.
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:11:18+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:11:18+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../../../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:11:20+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:11:20+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../../../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+.FileNotFoundError: [Errno 2] No such file or directory: './../../../hlfv12/composer/docker-compose-org1.yml'
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../../../hlfv12/composer/docker-compose-org2.yml: not found
+Error response from daemon: You cannot remove a running container 5da9539966a18217fbd7dc08515892ef9359835548bc20f937bedda38c4d8987. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 52014ea83134784231b1b865309f21adb2d526f4416f4eb40eaa99cea3ca3bf9. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container bbe2aafc5637a0d631d230eac9a9d9df9d214cddc8e5f4052b5eb380254c1f1b. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 67eb245348fb022531c3cdd29377751aa05bd7aea43cdbd1e3be78c2401411ec. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 5da09d77ae486dd4ee7709cb90be3964d995e98ac5263f4bbb4e87a34a44e54d. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container e6e1a88290a60e117afac816d6380f77a759b06eba888d53fcadeb382510a154. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 255e6d94622d136720b4b6a7de0ba7b9f6cbadbdc1901afcae2417452a1ce52b. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container a5e9dc7d96193e037687918a1024d6476c2d186eea7df075645b03d4617cf554. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container f93ccbd8b7aafb53f97e66213586581dfa7f14abcf7f3298a5561318c1baf662. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container f09a7fc7a66480a2f91e0e8f43bf90bfba81f42008cf68e8fb126b6e2984248c. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 584047ea7de97ff01743aa4c7e3c732f1696c90fa9c86e55f2a641dcb4afbb5e. Stop the container before attempting removal or force remove
+Error response from daemon: conflict: unable to delete 92b89a18bccb (cannot be forced) - image is being used by running container 67eb245348fb
+Error response from daemon: conflict: unable to delete c1ca9197aa40 (cannot be forced) - image is being used by running container bbe2aafc5637
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:12:16+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:12:16+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:12:16+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../../../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s; 
+
+2019-01-11T15:14:31+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:14:31+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:14:32+07:00 - INFO [bench-flow.js]: Executing command: pwd;docker-compose -f ../../../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../../../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s; 
+
+2019-01-11T15:15:05+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:15:05+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:15:05+07:00 - INFO [bench-flow.js]: Executing command: pwd;docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s; 
+
+2019-01-11T15:15:14+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:15:14+07:00 - ERROR [bench-flow.js]: Error: Error: Command failed: pwd;docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -dsleep 3s;
+Creating couchdb ... 
+Creating orderer.example.com ... 
+Creating ca.org1.example.com ... 
+[1A[2KCreating ca.org1.example.com ... [32mdone[0m[1B[2A[2KCreating orderer.example.com ... [32mdone[0m[2B[3A[2KCreating couchdb             ... [32mdone[0m[3BCreating peer0.org1.example.com ... 
+[1A[2KCreating peer0.org1.example.com ... [32mdone[0m[1BBuilds, (re)creates, starts, and attaches to containers for a service.
+
+Unless they are already running, this command also starts any linked services.
+
+The `docker-compose up` command aggregates the output of each container. When
+the command exits, all containers are stopped. Running `docker-compose up -d`
+starts the containers in the background and leaves them running.
+
+If there are existing containers for a service, and the service's configuration
+or image was changed after the container's creation, `docker-compose up` picks
+up the changes by stopping and recreating the containers (preserving mounted
+volumes). To prevent Compose from picking up changes, use the `--no-recreate`
+flag.
+
+If you want to force Compose to stop and recreate all containers, use the
+`--force-recreate` flag.
+
+Usage: up [options] [--scale SERVICE=NUM...] [SERVICE...]
+
+Options:
+    -d, --detach               Detached mode: Run containers in the background,
+                               print new container names. Incompatible with
+                               --abort-on-container-exit.
+    --no-color                 Produce monochrome output.
+    --quiet-pull               Pull without printing progress information
+    --no-deps                  Don't start linked services.
+    --force-recreate           Recreate containers even if their configuration
+                               and image haven't changed.
+    --always-recreate-deps     Recreate dependent containers.
+                               Incompatible with --no-recreate.
+    --no-recreate              If containers already exist, don't recreate
+                               them. Incompatible with --force-recreate and -V.
+    --no-build                 Don't build an image, even if it's missing.
+    --no-start                 Don't start the services after creating them.
+    --build                    Build images before starting containers.
+    --abort-on-container-exit  Stops all containers if any container was
+                               stopped. Incompatible with -d.
+    -t, --timeout TIMEOUT      Use this timeout in seconds for container
+                               shutdown when attached or when containers are
+                               already running. (default: 10)
+    -V, --renew-anon-volumes   Recreate anonymous volumes instead of retrieving
+                               data from the previous containers.
+    --remove-orphans           Remove containers for services not defined
+                               in the Compose file.
+    --exit-code-from SERVICE   Return the exit code of the selected service
+                               container. Implies --abort-on-container-exit.
+    --scale SERVICE=NUM        Scale SERVICE to NUM instances. Overrides the
+                               `scale` setting in the Compose file if present.
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:15:14+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:15:14+07:00 - INFO [bench-flow.js]: Executing command: pwd;docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:16:25+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:16:25+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:16:25+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:16:41+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:16:41+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:16:41+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:16:41+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:16:41+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:16:41+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:16:53+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:16:53+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping ca.org1.example.com    ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[1A[2KStopping orderer.example.com    ... [32mdone[0m[1B[2A[2KStopping couchdb                ... [32mdone[0m[2B[3A[2KStopping ca.org1.example.com    ... [32mdone[0m[3BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing ca.org1.example.com    ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+[2A[2KRemoving couchdb                ... [32mdone[0m[2B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[3A[2KRemoving ca.org1.example.com    ... [32mdone[0m[3B[1A[2KRemoving orderer.example.com    ... [32mdone[0m[1BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:33:25+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:33:25+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:33:25+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:33:37+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:33:37+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"\u001b[31m2019-01-11 08:33:37.714 UTC [main] main -> ERRO 001\u001b[0m Cannot run peer because cannot init crypto, missing /etc/hyperledger/users/Admin@org1.example.com/msp folder\n"}
+
+2019-01-11T15:33:37+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"\u001b[31m2019-01-11 08:33:37.714 UTC [main] main -> ERRO 001\u001b[0m Cannot run peer because cannot init crypto, missing /etc/hyperledger/users/Admin@org1.example.com/msp folder\n"}
+
+2019-01-11T15:33:37+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:33:37+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:33:37+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:33:49+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:33:49+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+Stopping ca.org1.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[2A[2KStopping orderer.example.com    ... [32mdone[0m[2B[3A[2KStopping couchdb                ... [32mdone[0m[3B[1A[2KStopping ca.org1.example.com    ... [32mdone[0m[1BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+Removing ca.org1.example.com    ... 
+[2A[2KRemoving orderer.example.com    ... [32mdone[0m[2B[3A[2KRemoving couchdb                ... [32mdone[0m[3B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[1A[2KRemoving ca.org1.example.com    ... [32mdone[0m[1BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+
+2019-01-11T15:35:06+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:35:06+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:35:06+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:35:18+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:35:19+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"2019-01-11 08:35:19.129 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: channel create configuration tx file not found open /etc/hyperledger/configtx/mychannel.tx: no such file or directory\n"}
+
+2019-01-11T15:35:19+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"2019-01-11 08:35:19.129 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: channel create configuration tx file not found open /etc/hyperledger/configtx/mychannel.tx: no such file or directory\n"}
+
+2019-01-11T15:35:19+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:35:19+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:35:19+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:35:31+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:35:31+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+Stopping ca.org1.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[3A[2KStopping couchdb                ... [32mdone[0m[3B[2A[2KStopping orderer.example.com    ... [32mdone[0m[2B[1A[2KStopping ca.org1.example.com    ... [32mdone[0m[1BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+Removing ca.org1.example.com    ... 
+[1A[2KRemoving ca.org1.example.com    ... [32mdone[0m[1B[2A[2KRemoving orderer.example.com    ... [32mdone[0m[2B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[3A[2KRemoving couchdb                ... [32mdone[0m[3BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:35:49+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:35:49+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:35:50+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:36:02+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:36:02+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"2019-01-11 08:36:02.635 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: Invalid channel create transaction : mismatched channel ID composerchannel != mychannel\n"}
+
+2019-01-11T15:36:02+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"2019-01-11 08:36:02.635 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: Invalid channel create transaction : mismatched channel ID composerchannel != mychannel\n"}
+
+2019-01-11T15:36:02+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:36:02+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:36:02+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:36:14+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:36:14+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping ca.org1.example.com    ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[2A[2KStopping couchdb                ... [32mdone[0m[2B[1A[2KStopping orderer.example.com    ... [32mdone[0m[1B[3A[2KStopping ca.org1.example.com    ... [32mdone[0m[3BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing ca.org1.example.com    ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[3A[2KRemoving ca.org1.example.com    ... [32mdone[0m[3B[2A[2KRemoving couchdb                ... [32mdone[0m[2B[1A[2KRemoving orderer.example.com    ... [32mdone[0m[1BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:36:20+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:36:20+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:36:20+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:36:32+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:36:33+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T15:36:33+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T15:36:33+07:00 - ERROR [bench-flow.js]: Error: TypeError: Cannot read property 'orderers' of undefined
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:147:72)
+    at composer_utils.createChannels.then (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer.js:68:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T15:36:33+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:36:33+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:36:45+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:36:45+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping ca.org1.example.com    ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[1A[2KStopping orderer.example.com    ... [32mdone[0m[1B[2A[2KStopping couchdb                ... [32mdone[0m[2B[3A[2KStopping ca.org1.example.com    ... [32mdone[0m[3BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing ca.org1.example.com    ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+[1A[2KRemoving orderer.example.com    ... [32mdone[0m[1B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[3A[2KRemoving ca.org1.example.com    ... [32mdone[0m[3B[2A[2KRemoving couchdb                ... [32mdone[0m[2BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:36:47+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:36:47+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:36:47+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:36:59+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:37:00+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:37:00+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:37:00+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:37:00+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:37:00+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:37:11+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:37:11+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping orderer.example.com    ... 
+Stopping couchdb                ... 
+Stopping ca.org1.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[2A[2KStopping couchdb                ... [32mdone[0m[2B[3A[2KStopping orderer.example.com    ... [32mdone[0m[3B[1A[2KStopping ca.org1.example.com    ... [32mdone[0m[1BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing orderer.example.com    ... 
+Removing couchdb                ... 
+Removing ca.org1.example.com    ... 
+[2A[2KRemoving couchdb                ... [32mdone[0m[2B[3A[2KRemoving orderer.example.com    ... [32mdone[0m[3B[1A[2KRemoving ca.org1.example.com    ... [32mdone[0m[1B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:37:41+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:37:41+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:37:41+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:37:53+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:37:54+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:37:54+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:37:54+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:37:54+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:37:54+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:38:06+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:38:06+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping couchdb                ... 
+Stopping orderer.example.com    ... 
+Stopping ca.org1.example.com    ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[2A[2KStopping orderer.example.com    ... [32mdone[0m[2B[3A[2KStopping couchdb                ... [32mdone[0m[3B[1A[2KStopping ca.org1.example.com    ... [32mdone[0m[1BFound orphan containers (peer0.org2.example.com, couchdb2, ca.org2.example.com) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing couchdb                ... 
+Removing orderer.example.com    ... 
+Removing ca.org1.example.com    ... 
+[2A[2KRemoving orderer.example.com    ... [32mdone[0m[2B[3A[2KRemoving couchdb                ... [32mdone[0m[3B[1A[2KRemoving ca.org1.example.com    ... [32mdone[0m[1B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container a606ad1ad6a863eb7acf6d2001cff3a5e84c403cbc320f17f626128d404b1a05. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d8ac7115739eeb90b39a3bf6fba4a8d7c75f2da998817507ee3c573611061f7a. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 878666319e03929bcc094546a960b652dbf4529f364a829c82334a3e9d382951. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T15:40:40+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:40:40+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:40:41+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:40:52+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:40:53+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error response from daemon: Container b4109248dbc8176e05852c10f74964542d0131d1f58c4f7fca73b273942aec73 is not running\n"}
+
+2019-01-11T15:40:53+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error response from daemon: Container b4109248dbc8176e05852c10f74964542d0131d1f58c4f7fca73b273942aec73 is not running\n"}
+
+2019-01-11T15:40:53+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:40:53+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:40:53+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T15:40:53+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T15:51:21+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:51:21+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:51:22+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:51:30+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:51:31+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:51:31+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T15:51:31+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:51:31+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:51:31+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T15:51:31+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T15:53:08+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:53:09+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:53:09+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:53:24+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:53:38+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T15:53:38+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T15:53:38+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous> 
+
+2019-01-11T15:53:38+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:53:38+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T15:53:50+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T15:53:50+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml down;docker-compose -f;../hlfv12/composer/docker-compose-org2.yml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Stopping peer0.org1.example.com ... 
+Stopping ca.org1.example.com    ... 
+Stopping orderer.example.com    ... 
+Stopping couchdb                ... 
+[4A[2KStopping peer0.org1.example.com ... [32mdone[0m[4B[2A[2KStopping orderer.example.com    ... [32mdone[0m[2B[1A[2KStopping couchdb                ... [32mdone[0m[1B[3A[2KStopping ca.org1.example.com    ... [32mdone[0m[3BFound orphan containers (peer0.org2.example.com, ca.org2.example.com, couchdb2) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+Removing peer0.org1.example.com ... 
+Removing ca.org1.example.com    ... 
+Removing orderer.example.com    ... 
+Removing couchdb                ... 
+[2A[2KRemoving orderer.example.com    ... [32mdone[0m[2B[3A[2KRemoving ca.org1.example.com    ... [32mdone[0m[3B[4A[2KRemoving peer0.org1.example.com ... [32mdone[0m[4B[1A[2KRemoving couchdb                ... [32mdone[0m[1BRemoving network composer_default
+network composer_default id b23222fb10d8ae67be40e808f87ac485ccace51998a6f35b18440b8ef164c3fe has active endpoints
+Define and run multi-container applications with Docker.
+
+Usage:
+  docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
+  docker-compose -h|--help
+
+Options:
+  -f, --file FILE             Specify an alternate compose file
+                              (default: docker-compose.yml)
+  -p, --project-name NAME     Specify an alternate project name
+                              (default: directory name)
+  --verbose                   Show more output
+  --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  --no-ansi                   Do not print ANSI control characters
+  -v, --version               Print version and exit
+  -H, --host HOST             Daemon socket to connect to
+
+  --tls                       Use TLS; implied by --tlsverify
+  --tlscacert CA_PATH         Trust certs signed only by this CA
+  --tlscert CLIENT_CERT_PATH  Path to TLS certificate file
+  --tlskey TLS_KEY_PATH       Path to TLS key file
+  --tlsverify                 Use TLS and verify the remote
+  --skip-hostname-check       Don't check the daemon's hostname against the
+                              name specified in the client certificate
+  --project-directory PATH    Specify an alternate working directory
+                              (default: the path of the Compose file)
+  --compatibility             If set, Compose will attempt to convert deploy
+                              keys in v3 files to their non-Swarm equivalent
+
+Commands:
+  build              Build or rebuild services
+  bundle             Generate a Docker bundle from the Compose file
+  config             Validate and view the Compose file
+  create             Create services
+  down               Stop and remove containers, networks, images, and volumes
+  events             Receive real time events from containers
+  exec               Execute a command in a running container
+  help               Get help on a command
+  images             List images
+  kill               Kill containers
+  logs               View output from containers
+  pause              Pause services
+  port               Print the public port for a port binding
+  ps                 List containers
+  pull               Pull service images
+  push               Push service images
+  restart            Restart services
+  rm                 Remove stopped containers
+  run                Run a one-off command
+  scale              Set number of containers for a service
+  start              Start services
+  stop               Stop services
+  top                Display the running processes
+  unpause            Unpause services
+  up                 Create and start containers
+  version            Show the Docker-Compose version information
+/bin/sh: 1: ../hlfv12/composer/docker-compose-org2.yml: Permission denied
+Error response from daemon: You cannot remove a running container c476a0ba9ffc80ff876cf8bb66126cf40b752aecd509f43fbc876ffe2d47402d. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 413ca30493f96b1f56c484c937c20c25fd07f97b62a93e6d6cd16e0e521979e0. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 79e3b55557bbbc1c81d7bbb3a292d714095b76e26ccecb20c1e2ec36470413f0. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+
+2019-01-11T15:54:04+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:54:04+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:54:05+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:54:17+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:54:31+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T15:54:31+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T15:54:31+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T15:54:31+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:54:31+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T15:54:31+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T15:56:03+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:56:03+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:56:03+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:56:18+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:56:21+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: orderer client failed to connect to 192.168.12.1:7050: failed to create new connection: context deadline exceeded\n"}
+
+2019-01-11T15:56:21+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: orderer client failed to connect to 192.168.12.1:7050: failed to create new connection: context deadline exceeded\n"}
+
+2019-01-11T15:56:21+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T15:56:21+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:56:21+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T15:56:21+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T15:57:03+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T15:57:03+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T15:57:04+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T15:57:11+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T15:57:25+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T15:57:25+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T15:57:25+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T15:57:25+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T15:57:25+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T15:57:25+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:16:41+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:16:41+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:16:42+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:16:57+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:27:49+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:27:49+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:27:50+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:27:57+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:27:58+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"2019-01-11 09:27:58.140 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: got unexpected status: BAD_REQUEST -- error authorizing update: error validating ReadSet: readset expected key [Group]  /Channel/Application at version 0, but got version 1\n"}
+
+2019-01-11T16:27:58+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"2019-01-11 09:27:58.140 UTC [channelCmd] InitCmdFactory -> INFO 001\u001b[0m Endorser and orderer connections initialized\nError: got unexpected status: BAD_REQUEST -- error authorizing update: error validating ReadSet: readset expected key [Group]  /Channel/Application at version 0, but got version 1\n"}
+
+2019-01-11T16:27:58+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T16:27:58+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:27:58+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:27:58+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:28:12+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:28:12+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:28:12+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:28:28+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:28:42+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T16:28:42+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T16:28:42+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous> 
+
+2019-01-11T16:28:42+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:28:42+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:28:42+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:29:32+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:29:32+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:29:32+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:29:47+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:30:01+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T16:30:01+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T16:30:01+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T16:30:01+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:30:01+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:30:01+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:33:28+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:33:28+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:33:29+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:33:44+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:33:58+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T16:33:58+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T16:33:58+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T16:33:58+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:33:58+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:33:58+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:35:19+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:35:19+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:35:20+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T16:35:24+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:35:24+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:35:24+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:35:24+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T16:35:24+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:35:24+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T16:35:26+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T16:35:26+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Removing network 2org1peergoleveldb_default
+Error response from daemon: You cannot remove a running container 24404bc25da5bdcf8fdc469a458a5bb0f31fc375765312644ec4718d4cc0086e. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container c41fdca81bb05835b14965ccb0d64580eaf6e8f585204e2ec972683d1e21124f. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d79a4f675d4af92429882214acc0f717da8304e3152001fc9888e7a46c008a91. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 47111085fcfb92bf6ff79a854e7bb43e3b8a4beca8fcfd6fa3ace2d85ecf9ba4. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 98bab7704930581212d9d77ee4de9ca6b4b0118c607142e59462a6ab06cece7d. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 9ce1f443d5303d42aac1fc2714cb5705567e362e8f94247da3142f304a0c3f02. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container bb9685168eda5235a8d81afa7e95a11b78873becc5085467291cfb552a3e0103. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T16:35:35+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:35:35+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:35:35+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T16:35:39+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:35:39+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:35:39+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:35:39+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T16:35:39+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:35:39+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T16:35:40+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T16:35:40+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Removing network 2org1peergoleveldb_default
+Error response from daemon: You cannot remove a running container 24404bc25da5bdcf8fdc469a458a5bb0f31fc375765312644ec4718d4cc0086e. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container c41fdca81bb05835b14965ccb0d64580eaf6e8f585204e2ec972683d1e21124f. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d79a4f675d4af92429882214acc0f717da8304e3152001fc9888e7a46c008a91. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 47111085fcfb92bf6ff79a854e7bb43e3b8a4beca8fcfd6fa3ace2d85ecf9ba4. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 98bab7704930581212d9d77ee4de9ca6b4b0118c607142e59462a6ab06cece7d. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 9ce1f443d5303d42aac1fc2714cb5705567e362e8f94247da3142f304a0c3f02. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container bb9685168eda5235a8d81afa7e95a11b78873becc5085467291cfb552a3e0103. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5) 
+
+2019-01-11T16:35:57+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:35:57+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:35:58+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T16:36:02+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:36:02+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(), 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:36:02+07:00 - ERROR [composer.js]: composer.init() failed, 
+	{"code":1,"stdout":"","stderr":"Error: failed to create deliver client: failed to load config for OrdererClient: unable to load orderer.tls.rootcert.file: open /etc/hyperledger/msp/orderer/tls/ca.crt: no such file or directory\n"}
+
+2019-01-11T16:36:02+07:00 - ERROR [bench-flow.js]: Error: [object Object] 
+
+2019-01-11T16:36:02+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:36:02+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q) 
+
+2019-01-11T16:36:03+07:00 - ERROR [bench-flow.js]: Unsuccessful command execution. Error code: 1. Terminating signal: null 
+
+2019-01-11T16:36:03+07:00 - ERROR [benchmark/composer/main.js]: Error while executing the benchmark: Error: Command failed: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml down;docker rm $(docker ps -aq);docker rmi $(docker images dev-* -q)
+Removing network 2org1peergoleveldb_default
+Error response from daemon: You cannot remove a running container 24404bc25da5bdcf8fdc469a458a5bb0f31fc375765312644ec4718d4cc0086e. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container c41fdca81bb05835b14965ccb0d64580eaf6e8f585204e2ec972683d1e21124f. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container d79a4f675d4af92429882214acc0f717da8304e3152001fc9888e7a46c008a91. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 47111085fcfb92bf6ff79a854e7bb43e3b8a4beca8fcfd6fa3ace2d85ecf9ba4. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 98bab7704930581212d9d77ee4de9ca6b4b0118c607142e59462a6ab06cece7d. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container 9ce1f443d5303d42aac1fc2714cb5705567e362e8f94247da3142f304a0c3f02. Stop the container before attempting removal or force remove
+Error response from daemon: You cannot remove a running container bb9685168eda5235a8d81afa7e95a11b78873becc5085467291cfb552a3e0103. Stop the container before attempting removal or force remove
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:557:12) 
+
+2019-01-11T16:37:07+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:37:07+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:37:08+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f network/fabric-v1.1/2org1peergoleveldb/docker-compose-tls.yaml up -d;sleep 3s 
+
+2019-01-11T16:37:42+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:37:42+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:37:43+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:37:50+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:38:10+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:38:10+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:38:52+07:00 - INFO [bench-flow.js]: Executing command: docker-compose -f ../hlfv12/composer/docker-compose-org1.yml up -d;sleep 3s;docker-compose -f ../hlfv12/composer/docker-compose-org2.yml up -d;sleep 3s; 
+
+2019-01-11T16:39:38+07:00 - INFO [composer.js]: Initializing target platform configuration 
+
+2019-01-11T16:39:52+07:00 - ERROR [composer.js]: composer.init() failed at initialiseFabric(),  
+
+2019-01-11T16:39:52+07:00 - ERROR [composer.js]: composer.init() failed,  
+
+2019-01-11T16:40:57+07:00 - ERROR [bench-flow.js]: Error: Error: [object Object]
+    at Object.joinChannels (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:169:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-01-11T16:40:57+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:40:57+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:40:57+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:43:05+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:43:05+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:43:10+07:00 - INFO [composer.js]: Deploying Composer 
+
+2019-01-11T16:43:10+07:00 - ERROR [composer.js]: composer.installSmartContract() failed,  
+
+2019-01-11T16:43:10+07:00 - ERROR [bench-flow.js]: Error: Error: Business Network named undefined does not exist on path /home/son/composer/sm-question
+    at Object.runtimeInstall (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer_utils.js:367:15)
+    at promiseChain.then (/home/son/Desktop/sm-questions-hyperledger/caliper/src/composer/composer.js:104:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+    at Function.Module.runMain (module.js:695:11)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:612:3 
+
+2019-01-11T16:43:10+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:43:10+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:43:10+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:44:40+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:44:40+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:45:13+07:00 - INFO [composer.js]: Deploying Composer 
+
+2019-01-11T16:45:13+07:00 - ERROR [composer.js]: composer.installSmartContract() failed, 
+	{"cause":{"errno":-2,"code":"ENOENT","syscall":"open","path":"/home/son/.composer/cards/PerfPeerAdmin@Org1"}}
+
+2019-01-11T16:45:13+07:00 - ERROR [bench-flow.js]: Error: Error: Card not found: PerfPeerAdmin@Org1
+    at store.get.then.catch (/home/son/Desktop/sm-questions-hyperledger/caliper/node_modules/composer-common/lib/cardstore/walletbackedcardstore.js:74:27)
+    at <anonymous> 
+
+2019-01-11T16:45:13+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:45:13+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:45:13+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+
+2019-01-11T16:54:20+07:00 - DEBUG Successfully constructed a winston logger with configurations
+	{"debug":"log/caliper.log","info":"console"}
+
+2019-01-11T16:54:20+07:00 - INFO [bench-flow.js]: ####### Caliper Test ###### 
+
+2019-01-11T16:54:20+07:00 - INFO [composer.js]: Deploying Composer 
+
+2019-01-11T16:54:20+07:00 - ERROR [composer.js]: composer.installSmartContract() failed, 
+	{"cause":{"errno":-2,"code":"ENOENT","syscall":"open","path":"/home/son/.composer/cards/PerfPeerAdmin@Org1"}}
+
+2019-01-11T16:54:20+07:00 - ERROR [bench-flow.js]: Error: Error: Card not found: PerfPeerAdmin@Org1
+    at store.get.then.catch (/home/son/Desktop/sm-questions-hyperledger/caliper/node_modules/composer-common/lib/cardstore/walletbackedcardstore.js:74:27)
+    at <anonymous> 
+
+2019-01-11T16:54:20+07:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-01-11T16:54:20+07:00 - ERROR [bench-flow.js]: End command is specified but it is empty 
+
+2019-01-11T16:54:20+07:00 - INFO [bench-flow.js]: 
+        
+#######################################
+# Test summary: 0 succeeded, 0 failed #
+#######################################
+ 
+

@@ -1,0 +1,38 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+error when connecting to db: { Error: connect ECONNREFUSED 127.0.0.1:5432
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5432 }
+locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+locate: can not open `/var/lib/mlocate/mlocate.db': Permission denied
+
+**************************************************************************************
+Error : Failed to connect client peer, please check the configuration and peer status
+Info :  Explorer will continue working with only DB data
+**************************************************************************************
+
+(node:14301) DeprecationWarning: grpc.load: Use the @grpc/proto-loader module with grpc.loadPackageDefinition instead
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+Error: Connection terminated unexpectedly
+    at Connection.con.once (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/node_modules/pg/lib/client.js:200:9)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Connection.emit (events.js:208:7)
+    at Socket.<anonymous> (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/node_modules/pg/lib/connection.js:76:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at TCP._handle.close [as _onclose] (net.js:557:12)
+<<<<<<<<<<<<<<<<<<<<<<<<<< Explorer Error >>>>>>>>>>>>>>>>>>>>>
+TypeError: Cannot read property 'port' of undefined
+    at Timeout.handleDisconnect [as _onTimeout] (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/persistence/postgreSQL/pgservice.js:48:32)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+Received kill signal, shutting down gracefully
+Closed out connections

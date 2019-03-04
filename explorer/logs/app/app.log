@@ -1,0 +1,17 @@
+[2019-01-10 15:54:04.307] [DEBUG] Platform - ******* Initialization started for hyperledger fabric platform ******
+[2019-01-10 15:54:04.308] [DEBUG] Platform - Setting admin organization enrolment files
+[2019-01-10 15:54:04.308] [DEBUG] FabricUtils - Organization [Org1] enrolment files path defined as directory
+[2019-01-10 15:54:04.308] [ERROR] Platform - { Error: ENOENT: no such file or directory, scandir 'fabric-path/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore'
+    at Object.fs.readdirSync (fs.js:904:18)
+    at setOrgEnrolmentPath (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/platform/fabric/utils/FabricUtils.js:340:26)
+    at Object.setAdminEnrolmentPath (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/platform/fabric/utils/FabricUtils.js:319:37)
+    at Platform.buildClients (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/platform/fabric/Platform.js:70:48)
+    at Platform.initialize (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/platform/fabric/Platform.js:50:16)
+    at Explorer.initialize (/home/son/Desktop/sm-questions-hyperledger/blockchain-explorer/app/Explorer.js:64:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'fabric-path/fabric-samples/first-network/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore' }
+[2019-01-10 15:54:04.309] [DEBUG] Platform - Creatinging client [client-1] >> 

@@ -1,0 +1,69 @@
+namespace file
+
+import manager.*
+import org.hyperledger.composer.system.*
+
+enum Action{
+  o APPROVE_UPDATE
+  o APPROVE_READ_PROPOSE
+  o REJECT_UPDATE
+  o REJECT_READ_PROPOSE
+  o CREATE
+  o PROPOSE_UPDATE
+  o PROPOSE_DELETE
+  o DELETE
+  o DOWNLOAD
+  o READ_PROPOSE
+}
+
+enum FileAction{
+  o UPDATE
+  o DELETE
+}
+
+asset FileEncrypted identified by uid {
+  o String uid
+  o AccessInfo[] access_info_list
+  o ControlInfo control_info
+  o String meta_data
+  o ProposeFile[] propose_list
+  o String checksum
+  o Vote[] vote_result_list
+}
+
+concept ProposeFile {
+  o FileAction file_action
+  o FileEncrypted proposing_file optional
+  o DateTime timestamp
+}
+
+concept Vote{
+  --> User user
+  o Boolean is_accept
+}
+
+concept AccessInfo {
+  --> User user
+  o Crypto[] crypto_list
+}
+
+asset Log identified by uid {
+  o String uid
+  --> User user
+  o DateTime timestamp
+  o Action action
+  --> FileEncrypted file
+}
+
+concept ControlInfo {
+  --> User[] required_list
+  --> User[] optional_list
+  o Integer thresh_hold
+}
+
+concept Crypto {
+  --> User issuer
+  --> Identity identity
+  o String public_key
+  o String encrypted_key
+}

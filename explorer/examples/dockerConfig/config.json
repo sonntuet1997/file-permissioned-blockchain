@@ -1,0 +1,100 @@
+{
+  "network-configs": {
+    "network-1": {
+      "version": "1.0",
+      "clients": {
+        "client-1": {
+          "tlsEnable": true,
+          "organization": "Org1",
+          "channel": "composerchannel",
+          "credentialStore": {
+            "path": "./tmp/credentialStore_Org1/credential",
+            "cryptoStore": {
+              "path": "./tmp/credentialStore_Org1/crypto"
+            }
+          }
+        }
+      },
+      "channels": {
+        "composerchannel": {
+          "peers": {
+            "peer0.org1.example.com": {},
+            "peer0.org2.example.com": {}
+          },
+          "connection": {
+            "timeout": {
+              "peer": {
+                "endorser": "6000",
+                "eventHub": "6000",
+                "eventReg": "6000"
+              }
+            }
+          }
+        }
+      },
+      "organizations": {
+        "Org1": {
+          "mspid": "Org1MSP",
+          "fullpath": false,
+          "adminPrivateKey": {
+            "path": "/tmp/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore"
+          },
+          "signedCert": {
+            "path": "/tmp/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
+          }
+        },
+        "Org2": {
+          "mspid": "Org2MSP",
+          "fullpath": false,
+          "adminPrivateKey": {
+            "path": "/tmp/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore"
+          },
+          "signedCert": {
+            "path": "/tmp/crypto/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts"
+          }
+        },
+        "Orderer": {
+          "mspid": "OrdererMSP",
+          "adminPrivateKey": {
+            "path": "/tmp/crypto/ordererOrganizations/example.com/users/Admin@example.com/msp/keystore"
+          }
+        }
+      },
+      "peers": {
+        "peer0.org1.example.com": {
+          "tlsCACerts": {
+            "path": "/tmp/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+          },
+          "url": "grpcs://192.168.1.24:7051",
+          "eventUrl": "grpcs://192.168.1.24:7053",
+          "grpcOptions": {
+            "ssl-target-name-override": "peer0.org1.example.com"
+          }
+        },
+        "peer0.org2.example.com": {
+          "tlsCACerts": {
+            "path": "/tmp/crypto/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt"
+          },
+          "url": "grpcs://192.168.1.24:8051",
+          "eventUrl": "grpcs://192.168.1.24:8053",
+          "grpcOptions": {
+            "ssl-target-name-override": "peer0.org2.example.com"
+          }
+        }
+      },
+      "orderers": {
+        "orderer.example.com": {
+          "url": "grpcs://192.168.1.24:7050",
+          "grpcOptions": {
+            "ssl-target-name-override": "orderer.example.com"
+          },
+          "tlsCACerts": {
+            "pem": "-----BEGIN CERTIFICATE-----\nMIICNjCCAdygAwIBAgIRAOvdV+htjp/ju1qNxUiYriIwCgYIKoZIzj0EAwIwbDEL\nMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNhbiBG\ncmFuY2lzY28xFDASBgNVBAoTC2V4YW1wbGUuY29tMRowGAYDVQQDExF0bHNjYS5l\neGFtcGxlLmNvbTAeFw0xODA4MTcwNjQzMzlaFw0yODA4MTQwNjQzMzlaMGwxCzAJ\nBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1TYW4gRnJh\nbmNpc2NvMRQwEgYDVQQKEwtleGFtcGxlLmNvbTEaMBgGA1UEAxMRdGxzY2EuZXhh\nbXBsZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASEQyDDtl3NZ1ryxcCb\nVnfb+DCFo2Y6lU6ZJa5uuWINOG2KVfArhhpppVjFWWEm2Uu+CzcadXrF7fwYId0c\n8Og0o18wXTAOBgNVHQ8BAf8EBAMCAaYwDwYDVR0lBAgwBgYEVR0lADAPBgNVHRMB\nAf8EBTADAQH/MCkGA1UdDgQiBCAcWTYkgNEFYHFbmP4fudzVnH1eppNWseNR0bMc\n1VAAxjAKBggqhkjOPQQDAgNIADBFAiEA3H5wpbedc2gX1VbDfOtJvEVUZxvNdHq+\nS95cDGqFE78CIEUxtFserTZU8xPOYKC965MgGjPnHOnhpOyq2gweHAB5\n-----END CERTIFICATE-----\n"
+          }
+        }
+      }
+    }
+  },
+  "configtxgenToolPath": "/fabric-path/workspace/fabric-samples/bin",
+  "license": "Apache-2.0"
+}

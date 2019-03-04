@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+    <title>Caliper Report</title>
+    <meta charset="UTF-8"/>
+    <style type="text/css">
+        .left-column {
+            position: fixed;
+            width:20%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+        }
+        .right-column {
+            margin-left: 22%;
+            width:60%;
+        }
+        .left-column ul,h2 {
+            display: block;
+            margin: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .left-column ul{
+            border-top: 1px solid #d9d9d9;
+            font-size: 14px;
+        }
+        .left-column li{
+            margin-bottom: 5px;
+            color: #5e6b73;
+        }
+        .left-column h3 {
+            border-left: 5px solid #009a61;
+        }
+        .right-column>div {
+            border-top: 1px solid #d9d9d9;
+        }
+        .right-column table {
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color:#333333;
+            border-width: 1px;
+            border-color: #666666;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        .right-column th {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #f2f2f2;
+        }
+        .right-column td {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #ffffff;
+        }
+        .tag {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            background-color: rgba(1,126,102,0.08);
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color: #017E66;
+            text-align: center;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+        }
+        pre {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            overflow:auto;
+            max-height:300px;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <div class="left-column">
+        <h2>Caliper Report</h2>
+        <ul>
+            <h3>&nbspBasic information</h3>
+            <li><strong>DLT: &nbsp</strong><span>composer</span></li>
+            <li><strong>Benchmark: &nbsp</strong><span>Composer Performance test</span></li>
+            <li><strong>Description: &nbsp</strong><span>This is an example Composer perf test</span></li>
+            <li><strong>Test Rounds: &nbsp</strong><span>2</span></li>
+            <li><a href="#benchmarkInfo">Details</a></li>
+        </ul>
+        <ul>
+            <h3>&nbspBenchmark results</h3>
+            <li><a href="#benchmarksummary">Summary</a></li>
+            <li><a href="#round 0">round 0</a></li>
+            <li><a href="#round 1">round 1</a></li>
+        </ul>
+        <ul>
+            <h3>&nbspSystem Under Test</h3>
+            <li><strong>Version: &nbsp</strong><span>1.2.0</span></li>
+            <li><strong>Size: &nbsp</strong><span>2 Orgs with 1 Peer</span></li>
+            <li><strong>Orderer: &nbsp</strong><span>Solo</span></li>
+            <li><strong>Distribution: &nbsp</strong><span>Single Host</span></li>
+            <li><a href="#sutdetails">Details</a></li>
+        </ul>
+    </div>
+
+    <div class="right-column">
+        <div id="benchmarksummary">
+            <table>
+                <h3>Summary</h3>
+                <tr>
+                     <th>Test</th> <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                </tr>
+
+                <tr>
+                     <td>1</td> <td>composer</td> <td>59</td> <td>941</td> <td>279.8 tps</td> <td>92.41 s</td> <td>90.71 s</td> <td>91.49 s</td> <td>-0.0 tps</td>
+                </tr>
+                <tr>
+                     <td>2</td> <td>composer</td> <td>73</td> <td>27</td> <td>280.1 tps</td> <td>11.79 s</td> <td>9.53 s</td> <td>10.21 s</td> <td>-0.0 tps</td>
+                </tr>
+            </table>
+        </div>
+        <div id="round 0">
+            <h3>round 0&nbsp-&nbspcomposer</h3>
+            <strong class="tag">performance metrics</strong>
+            <table>
+                <tr>
+                     <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                </tr>
+                <tr>
+                     <td>composer</td> <td>59</td> <td>941</td> <td>279.8 tps</td> <td>92.41 s</td> <td>90.71 s</td> <td>91.49 s</td> <td>-0.0 tps</td>
+                </tr>
+            </table>
+            <strong class="tag">resource consumption</strong>
+            <table>
+                <tr>
+                     <th>TYPE</th> <th>NAME</th> <th>Memory(max)</th> <th>Memory(avg)</th> <th>CPU(max)</th> <th>CPU(avg)</th> <th>Traffic In</th> <th>Traffic Out</th> <th>Disc Read</th> <th>Disc Write</th>
+                </tr>
+                <tr>
+                     <td>Process</td> <td>node local-client.js(avg)</td> <td>199.4MB</td> <td>178.9MB</td> <td>115.79%</td> <td>17.91%</td> <td>-</td> <td>-</td> <td>-</td> <td>-</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>dev-peer0.org1.example.co...0.0.1</td> <td>782.0MB</td> <td>304.3MB</td> <td>104.71%</td> <td>62.26%</td> <td>5.4MB</td> <td>4.5MB</td> <td>10.7MB</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>dev-peer0.org2.example.co...0.0.1</td> <td>526.3MB</td> <td>251.3MB</td> <td>101.79%</td> <td>63.72%</td> <td>5.4MB</td> <td>4.8MB</td> <td>9.1MB</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>peer0.org2.example.com</td> <td>364.9MB</td> <td>313.9MB</td> <td>40.67%</td> <td>12.31%</td> <td>13.8MB</td> <td>15.8MB</td> <td>47.3MB</td> <td>1.0MB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>ca.org2.example.com</td> <td>9.9MB</td> <td>9.0MB</td> <td>0.44%</td> <td>0.01%</td> <td>845B</td> <td>0B</td> <td>2.9MB</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>couchdb2</td> <td>152.7MB</td> <td>109.4MB</td> <td>75.50%</td> <td>20.08%</td> <td>4.7MB</td> <td>7.0MB</td> <td>6.3MB</td> <td>472.0KB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>peer0.org1.example.com</td> <td>383.3MB</td> <td>353.3MB</td> <td>56.91%</td> <td>13.13%</td> <td>14.3MB</td> <td>36.6MB</td> <td>14.7MB</td> <td>160.0KB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>ca.org1.example.com</td> <td>19.1MB</td> <td>14.0MB</td> <td>0.00%</td> <td>0.00%</td> <td>887B</td> <td>42B</td> <td>0B</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>orderer.example.com</td> <td>26.9MB</td> <td>19.7MB</td> <td>3.47%</td> <td>0.14%</td> <td>384.4KB</td> <td>630.2KB</td> <td>30.6MB</td> <td>832.0KB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>couchdb</td> <td>168.1MB</td> <td>135.3MB</td> <td>69.55%</td> <td>18.84%</td> <td>4.7MB</td> <td>6.9MB</td> <td>2.6MB</td> <td>0B</td>
+                </tr>
+            </table>
+        </div>
+        <div id="round 1">
+            <h3>round 1&nbsp-&nbspcomposer</h3>
+            <strong class="tag">performance metrics</strong>
+            <table>
+                <tr>
+                     <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                </tr>
+                <tr>
+                     <td>composer</td> <td>73</td> <td>27</td> <td>280.1 tps</td> <td>11.79 s</td> <td>9.53 s</td> <td>10.21 s</td> <td>-0.0 tps</td>
+                </tr>
+            </table>
+            <strong class="tag">resource consumption</strong>
+            <table>
+                <tr>
+                     <th>TYPE</th> <th>NAME</th> <th>Memory(max)</th> <th>Memory(avg)</th> <th>CPU(max)</th> <th>CPU(avg)</th> <th>Traffic In</th> <th>Traffic Out</th> <th>Disc Read</th> <th>Disc Write</th>
+                </tr>
+                <tr>
+                     <td>Process</td> <td>node local-client.js(avg)</td> <td>187.6MB</td> <td>175.7MB</td> <td>100.00%</td> <td>28.07%</td> <td>-</td> <td>-</td> <td>-</td> <td>-</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>dev-peer0.org1.example.co...0.0.1</td> <td>756.8MB</td> <td>755.2MB</td> <td>89.18%</td> <td>50.87%</td> <td>407.9KB</td> <td>379.5KB</td> <td>192.0KB</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>dev-peer0.org2.example.co...0.0.1</td> <td>499.6MB</td> <td>498.0MB</td> <td>89.55%</td> <td>46.28%</td> <td>482.7KB</td> <td>392.5KB</td> <td>944.0KB</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>peer0.org2.example.com</td> <td>222.0MB</td> <td>218.2MB</td> <td>19.78%</td> <td>7.32%</td> <td>1.7MB</td> <td>4.3MB</td> <td>1016.0KB</td> <td>1.3MB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>ca.org2.example.com</td> <td>8.6MB</td> <td>8.6MB</td> <td>0.00%</td> <td>0.00%</td> <td>0B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>couchdb2</td> <td>73.8MB</td> <td>71.6MB</td> <td>34.25%</td> <td>13.36%</td> <td>589.3KB</td> <td>804.2KB</td> <td>136.0KB</td> <td>984.0KB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>peer0.org1.example.com</td> <td>303.7MB</td> <td>299.2MB</td> <td>28.63%</td> <td>10.74%</td> <td>1.6MB</td> <td>4.2MB</td> <td>568.0KB</td> <td>1.3MB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>ca.org1.example.com</td> <td>9.0MB</td> <td>9.0MB</td> <td>0.00%</td> <td>0.00%</td> <td>0B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>orderer.example.com</td> <td>29.9MB</td> <td>25.0MB</td> <td>0.63%</td> <td>0.12%</td> <td>534.4KB</td> <td>1.0MB</td> <td>9.4MB</td> <td>1.1MB</td>
+                </tr>
+                <tr>
+                     <td>Docker</td> <td>couchdb</td> <td>88.7MB</td> <td>83.1MB</td> <td>42.47%</td> <td>19.20%</td> <td>548.0KB</td> <td>732.3KB</td> <td>136.0KB</td> <td>984.0KB</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h3>Test Environment</h3>
+            <strong class="tag">benchmark config</strong>
+            <pre id="benchmarkInfo">{
+  &quot;name&quot;: &quot;Composer Performance test&quot;,
+  &quot;description&quot;: &quot;This is an example Composer perf test&quot;,
+  &quot;clients&quot;: {
+    &quot;type&quot;: &quot;local&quot;,
+    &quot;number&quot;: 1
+  },
+  &quot;rounds&quot;: [
+    {
+      &quot;label&quot;: &quot;composer&quot;,
+      &quot;txNumber&quot;: [
+        1000
+      ],
+      &quot;trim&quot;: 0,
+      &quot;rateControl&quot;: [
+        {
+          &quot;type&quot;: &quot;fixed-rate&quot;,
+          &quot;opts&quot;: {
+            &quot;tps&quot;: 1000
+          }
+        }
+      ],
+      &quot;arguments&quot;: {
+        &quot;testAssets&quot;: 0
+      },
+      &quot;callback&quot;: &quot;benchmark&#x2F;composer&#x2F;composer-samples&#x2F;composer.js&quot;
+    },
+    {
+      &quot;label&quot;: &quot;composer&quot;,
+      &quot;txNumber&quot;: [
+        100
+      ],
+      &quot;trim&quot;: 0,
+      &quot;rateControl&quot;: [
+        {
+          &quot;type&quot;: &quot;fixed-rate&quot;,
+          &quot;opts&quot;: {
+            &quot;tps&quot;: 1000
+          }
+        }
+      ],
+      &quot;arguments&quot;: {
+        &quot;testAssets&quot;: 0
+      },
+      &quot;callback&quot;: &quot;benchmark&#x2F;composer&#x2F;composer-samples&#x2F;composer.js&quot;
+    }
+  ]
+}</pre>
+            <strong class="tag">SUT</strong>
+            <pre id="sutdetails">not provided</pre>
+        </div>
+    </div>
+
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+{
+  "caliper": {
+    "blockchain": "composer",
+    "command": {
+      "start": "cd .. && ./rebuild.sh",
+      "end": "cd .. && ./clear.sh"
+    }
+  },
+  "composer": {
+    "chaincodes": [
+      {
+        "id": "composer",
+        "version": "0.0.1",
+        "path": "../",
+        "orgs": [
+          "Org1",
+          "Org2"
+        ],
+        "loglevel": "DEBUG"
+      }
+    ],
+    "cryptodir": "../hlfv12/composer/crypto-config",
+    "network": {
+      "x-type": "hlfv1",
+      "timeout": 3000,
+      "version": "1.0.0",
+      "tls": true,
+      "orderers": {
+        "orderer.example.com": {
+          "url": "grpcs://192.168.1.24:7050",
+          "mspid": "OrdererMSP",
+          "mspconfig": "/etc/hyperledger/orderer/tls/ca.crt",
+          "cert": "../hlfv12/composer/crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls/ca.crt",
+          "hostname": "orderer.example.com",
+          "hosturl": "orderer.example.com:7050"
+        }
+      },
+      "certificateAuthorities": {
+        "ca.org1.example.com": {
+          "url": "https://192.168.1.24:7054",
+          "name": "ca.org1.example.com"
+        },
+        "ca.org2.example.com": {
+          "url": "https://192.168.1.24:8054",
+          "name": "ca.org2.example.com"
+        }
+      },
+      "organizations": [
+        {
+          "name": "Org1",
+          "mspid": "Org1MSP",
+          "mspconfig": "/etc/hyperledger/peer/msp",
+          "adminCert": "../hlfv12/composer/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem",
+          "adminKey": "../hlfv12/composer/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/key.pem",
+          "certificateAuthorities": [
+            "ca.org1.example.com"
+          ],
+          "peers": [
+            "peer0.org1.example.com"
+          ]
+        },
+        {
+          "name": "Org2",
+          "mspid": "Org2MSP",
+          "mspconfig": "/etc/hyperledger/peer/msp",
+          "adminCert": "../hlfv12/composer/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts/Admin@org2.example.com-cert.pem",
+          "adminKey": "../hlfv12/composer/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore/key.pem",
+          "certificateAuthorities": [
+            "ca.org2.example.com"
+          ],
+          "peers": [
+            "peer0.org2.example.com"
+          ]
+        }
+      ],
+      "peers": {
+        "peer0.org1.example.com": {
+          "url": "grpcs://192.168.1.24:7051",
+          "eventUrl": "grpcs://192.168.1.24:7053",
+          "hostname": "peer0.org1.example.com",
+          "cert": "../hlfv12/composer/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt",
+          "channels": [
+            "composerchannel"
+          ]
+        },
+        "peer0.org2.example.com": {
+          "url": "grpcs://192.168.1.24:8051",
+          "eventUrl": "grpcs://192.168.1.24:8053",
+          "hostname": "peer0.org2.example.com",
+          "cert": "../hlfv12/composer/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt",
+          "channels": [
+            "composerchannel"
+          ]
+        }
+      },
+      "channels": {
+        "composerchannel": {
+          "config": "/etc/hyperledger/configtx/composer-channel.tx",
+          "mspconfig": "/etc/hyperledger/peer/msp",
+          "cafile": "/etc/hyperledger/orderer/tls/ca.crt",
+          "orderers": [
+            "orderer.example.com"
+          ],
+          "peers": [
+            "peer0.org1.example.com",
+            "peer0.org2.example.com"
+          ]
+        }
+      }
+    }
+  },
+  "info": {
+    "Version": "1.2.0",
+    "Size": "2 Orgs with 1 Peer",
+    "Orderer": "Solo",
+    "Distribution": "Single Host"
+  }
+}

@@ -1,0 +1,92 @@
+namespace transaction.file
+
+import file.*
+import manager.*
+
+transaction CreateFileEncrypted {
+  o String uid
+  o AccessInfo[] access_info_list
+  o ControlInfo control_info
+  o String meta_data
+  o String checksum
+}
+
+event CreateFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction UpdateFileEncrypted {
+  o String uid
+  o AccessInfo[] access_info_list
+  o ControlInfo control_info
+  o String meta_data
+  o String checksum
+}
+
+event UpdateFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction DownloadFileEncrypted {
+  o String uid
+  o String meta_data
+  o String checksum
+}
+
+event DownloadFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction DeleteFileEncrypted {
+  o String uid
+}
+
+event DeleteFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction AcceptProposedFileEncrypted {
+  o String uid
+  o DateTime timestamp_id 
+}
+
+event AcceptProposedFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction RejectProposedFileEncrypted {
+  o String uid
+  o DateTime timestamp_id 
+}
+
+event RejectProposedFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction ProposeReadFileEncrypted {
+  o String uid
+}
+
+event ProposeReadFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction AcceptReadFileEncrypted {
+  o String uid
+  o AccessInfo access_info
+}
+
+event AcceptReadFileEncryptedEvent {
+  --> FileEncrypted file
+}
+
+transaction RejectReadFileEncrypted {
+  o String uid
+  o AccessInfo access_info
+
+}
+
+event RejectReadFileEncryptedEvent {
+  --> FileEncrypted file
+}
+

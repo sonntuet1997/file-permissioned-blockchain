@@ -1,0 +1,34 @@
+namespace transaction.manager
+
+import manager.*
+
+transaction CreateUser {
+  o String uid
+  o String name
+  o String identify
+  o Boolean manager
+}
+
+event CreateUserEvent {
+  --> User user
+}
+
+transaction UpdateUser {
+  o String uid
+  o String name
+  o String identify
+  o Boolean manager
+}
+
+event UpdateUserEvent {
+  --> User user
+}
+
+
+transaction DeleteUser {
+  o String uid
+}
+
+event DeleteUserEvent {
+  --> User user
+}

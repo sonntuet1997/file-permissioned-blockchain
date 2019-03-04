@@ -1,0 +1,11 @@
+namespace manager
+import org.hyperledger.composer.system.*
+
+participant User identified by uid {
+  o String uid
+  o String name
+  o String identify
+  --> User issuer optional
+  --> NetworkAdmin admin optional
+  o Boolean manager
+}
