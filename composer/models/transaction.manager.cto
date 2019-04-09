@@ -1,6 +1,7 @@
 namespace transaction.manager
 
 import manager.*
+import file.*
 
 transaction CreateUser {
   o String uid
@@ -31,4 +32,32 @@ transaction DeleteUser {
 
 event DeleteUserEvent {
   --> User user
+}
+
+transaction CreateFileServer {
+  o String uid
+  o String name
+}
+
+event CreateFileServerEvent {
+  --> FileServer fileServer
+}
+
+transaction UpdateFileServer {
+  o String uid
+  o String name
+}
+
+event UpdateFileServerEvent {
+  --> FileServer fileServer
+}
+
+transaction LogRequest {
+  --> User user
+  --> FileEncrypted file
+  o Action action
+}
+
+event LogRequestEvent {
+  --> FileEncrypted file
 }

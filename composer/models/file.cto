@@ -24,11 +24,14 @@ enum FileAction{
 asset FileEncrypted identified by uid {
   o String uid
   o AccessInfo[] access_info_list
-  o ControlInfo control_info
+  o ControlInfo control_info optional
   o String meta_data
   o ProposeFile[] propose_list
   o String checksum
   o Vote[] vote_result_list
+  o Boolean is_directory
+  --> FileEncrypted[] file_list optional
+  o Boolean[] file_list_directory optional
 }
 
 concept ProposeFile {

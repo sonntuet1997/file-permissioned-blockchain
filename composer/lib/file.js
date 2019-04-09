@@ -1,5 +1,6 @@
 'use strict';
 
+
 // --------------------------------------EMPLOYEE-----------------------------------------
 /**
  * Create the LOC asset
@@ -9,6 +10,7 @@
 async function createFileEncrypted(request) {
     const factory = getFactory();
     const namespace = 'file';
+    if(request.uid[0] != '/') throw error (40, {}, "error 40");
     const asset = factory.newResource(namespace, 'FileEncrypted', request.uid);
     const assetRegistry = await getAssetRegistry(asset.getFullyQualifiedType());
     let check = true;
@@ -24,6 +26,7 @@ async function createFileEncrypted(request) {
     copyProperty(asset, request);
     asset.propose_list = [];
     asset.vote_result_list = [];
+    asset.is_directory = false;
     // asset.issuer = factory.newRelationship(namespace, 'Employee', getCurrentAsset().getIdentifier());
     try{
         if(asset.control_info.required_list == null 
@@ -49,13 +52,49 @@ async function createFileEncrypted(request) {
             await assetRegistry.update(asset);
         } else{
             await assetRegistry.add(asset);
-        }        
+        }
+        let checkk = true;
+        let arr = asset.uid.split("/");
+        let i = arr.length;
+        let uid = asset.uid;
+        let pre = uid;
+        uid = uid.substr(0,uid.length-arr[i-1].length);
+        // debugger;
+        while(checkk && i > 1){
+            try{
+                let directory = await assetRegistry.get(uid);
+                if (!directory.is_directory) {
+                    throw error(21,{},"error 21");
+                }
+                directory.file_list.push(factory.newRelationship(namespace, 'FileEncrypted', pre));
+                directory.file_list_directory.push(i!= arr.length);
+                await assetRegistry.update(directory);
+                checkk = false;
+            } catch (e){
+                let as = factory.newResource(namespace, 'FileEncrypted', uid);
+                as.is_directory = true;
+                as.access_info_list = [];
+                as.meta_data = "";
+                as.checksum = "";
+                as.propose_list = [];
+                as.file_list = [];
+                as.file_list_directory = [];
+                as.vote_result_list = [];
+                as.file_list.push(factory.newRelationship(namespace, 'FileEncrypted', pre));
+                as.file_list_directory.push(i!= arr.length);
+                await assetRegistry.add(as);
+            }
+            i--;
+            pre = uid;
+            uid = uid.substr(0,uid.length-1-arr[i-1].length);
+        } 
     } catch (e){
         throw e;
         // throw error(3,e,"error 3");
     }
     const event = factory.newEvent('transaction.file', 'CreateFileEncryptedEvent');
     event.file = asset;
+    event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -66,6 +105,7 @@ async function createFileEncrypted(request) {
     await logRegistry.add(log);
     emit(event);
 }
+
 
 /**
  * Create the LOC asset
@@ -139,6 +179,7 @@ async function deleteFileEncrypted(request) {
     asset.meta_data = '';
     asset.checksum = '';
     asset.access_info_list = [];
+    asset.is_directory = false;
     const assetRegistry = await getAssetRegistry(asset.getFullyQualifiedType());
     const original = await assetRegistry.get(request.uid);
     // asset.issuer = factory.newRelationship(namespace, 'Employee', getCurrentAsset().getIdentifier());
@@ -212,6 +253,36 @@ async function acceptProposedFileEncrypted(request) {
             asset.propose_list = [];
         }
     await assetRegistry.update(asset);
+    if(asset.checksum == ''){
+        let checkk = true;
+        let arr = asset.uid.split("/");
+        let i = arr.length;
+        let uid = asset.uid;
+        let pre = uid;
+        uid = uid.substr(0,uid.length-arr[i-1].length);
+        while(checkk && i > 1){
+            try{
+                let directory = await assetRegistry.get(uid);
+                if (!directory.is_directory) {
+                    throw error(21,{},"error 21");
+                }
+                let ind = directory.file_list.findIndex(x => {x == factory.newRelationship(namespace, 'FileEncrypted', pre)});
+                directory.file_list.splice(ind);
+                directory.file_list_directory.splice(ind);
+                if(directory.file_list.length == 0){
+                    await assetRegistry.remove(directory);
+                } else{
+                    await assetRegistry.update(directory);
+                    checkk = false;
+                } 
+            } catch (e){
+                throw error(22, e, "error 22");
+            }
+            i--;
+            pre = uid;
+            uid = uid.substr(0,uid.length-1-arr[i-1].length);
+        }
+    }
     const event = factory.newEvent('transaction.file', 'AcceptProposedFileEncryptedEvent');
     event.file = asset;
     const time = Date.now();

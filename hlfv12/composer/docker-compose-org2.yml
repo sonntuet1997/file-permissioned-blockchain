@@ -2,7 +2,7 @@ version: '2'
 services:
   couchdb2:
     container_name: couchdb2
-    image: hyperledger/fabric-couchdb:0.4.10
+    image: hyperledger/fabric-couchdb:0.4.15
     ports:
       - 6984:5984
     environment:
@@ -43,7 +43,7 @@ services:
       - couchdb2
 
   ca.org2.example.com:
-    image: hyperledger/fabric-ca:1.2.0
+    image: hyperledger/fabric-ca:1.4.0
     environment:
       - FABRIC_CA_HOME=/etc/hyperledger/fabric-ca-server
       - FABRIC_CA_SERVER_CA_NAME=ca.org2.example.com

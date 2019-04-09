@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export HOST1=192.168.1.24
-export HOST2=127.0.0.1
+export HOST2=192.168.1.24
 
 ./hlfv12/startFabricOrg2.sh
 ./hlfv12/createPeerAdminCardOrg2.sh

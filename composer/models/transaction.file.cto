@@ -13,6 +13,7 @@ transaction CreateFileEncrypted {
 
 event CreateFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
 }
 
 transaction UpdateFileEncrypted {

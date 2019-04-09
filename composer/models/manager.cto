@@ -9,3 +9,8 @@ participant User identified by uid {
   --> NetworkAdmin admin optional
   o Boolean manager
 }
+
+participant FileServer identified by uid {
+  o String uid
+  o String name
+}

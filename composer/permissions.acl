@@ -220,3 +220,30 @@ rule RejectReadFileEncrypted{
   condition: (p.manager == false)
   action: ALLOW
 }
+
+// -----------------------------------FileServer-----------------------------------
+rule SeeAll{
+  description: "Allow"
+  participant: "manager.FileServer"
+  operation:  READ
+  resource: "**"
+  action: ALLOW
+}
+
+rule Download{
+  description: "Allow"
+  participant: "manager.FileServer"
+  operation:  CREATE
+  resource(r): "file.Log"
+  transaction: "transaction.manager.LogRequest"
+  condition: (r.action == 'DOWNLOAD')
+  action: ALLOW
+}
+
+rule FileServerTransaction{
+  description: "Grant business network administrators full access to user resources"
+  participant: "manager.FileServer"
+  operation: ALL
+  resource: "transaction.manager.*"
+  action: ALLOW
+}
