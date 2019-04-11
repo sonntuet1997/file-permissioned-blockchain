@@ -253,9 +253,9 @@ async function acceptProposedFileEncrypted(request) {
     if(voted_number >= asset.control_info.thresh_hold && 
     asset.control_info.required_list.every(x => filePropose.proposing_file.vote_result_list.some(y => x.getIdentifier() == y.user.getIdentifier()))){
         const event = factory.newEvent('transaction.file', 'ApplyFileEncryptedEvent');
-        event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+        event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list];
         copyProperty(asset,filePropose.proposing_file);
-        event.relative = [...event.relative,...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+        event.relative = [...event.relative,...asset.control_info.required_list,...asset.control_info.optional_list];
         event.file = asset;
         asset.propose_list = [];
         if(asset.checksum == ''){
