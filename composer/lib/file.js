@@ -118,6 +118,7 @@ async function updateFileEncrypted(request) {
     const asset = factory.newResource(namespace, 'FileEncrypted', request.uid);
     copyProperty(asset, request);
     asset.propose_list = [];
+    asset.is_directory = false;
     asset.vote_result_list = [];
     const assetRegistry = await getAssetRegistry(asset.getFullyQualifiedType());
     const original = await assetRegistry.get(request.uid);
@@ -150,6 +151,7 @@ async function updateFileEncrypted(request) {
     }
     const event = factory.newEvent('transaction.file', 'UpdateFileEncryptedEvent');
     event.file = asset;
+    event.relative = [...original.control_info.required_list,...original.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -209,6 +211,7 @@ async function deleteFileEncrypted(request) {
     }
     const event = factory.newEvent('transaction.file', 'DeleteFileEncryptedEvent');
     event.file = asset;
+    event.relative = [...original.control_info.required_list,...original.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -220,7 +223,7 @@ async function deleteFileEncrypted(request) {
     emit(event);
 }
 
-/**
+ /**
  * Create the LOC asset
  * @param {transaction.file.AcceptProposedFileEncrypted} acceptProposedFileEncrypted
  * @transaction
@@ -248,43 +251,55 @@ async function acceptProposedFileEncrypted(request) {
     };
     const voted_number = asset.control_info.optional_list.filter(x => filePropose.proposing_file.vote_result_list.some(y => x.getIdentifier() == y.user.getIdentifier()));
     if(voted_number >= asset.control_info.thresh_hold && 
-        asset.control_info.required_list.every(x => filePropose.proposing_file.vote_result_list.some(y => x.getIdentifier() == y.user.getIdentifier()))){
-            copyProperty(asset,filePropose.proposing_file);
-            asset.propose_list = [];
-        }
-    await assetRegistry.update(asset);
-    if(asset.checksum == ''){
-        let checkk = true;
-        let arr = asset.uid.split("/");
-        let i = arr.length;
-        let uid = asset.uid;
-        let pre = uid;
-        uid = uid.substr(0,uid.length-arr[i-1].length);
-        while(checkk && i > 1){
-            try{
-                let directory = await assetRegistry.get(uid);
-                if (!directory.is_directory) {
-                    throw error(21,{},"error 21");
-                }
-                let ind = directory.file_list.findIndex(x => {x == factory.newRelationship(namespace, 'FileEncrypted', pre)});
-                directory.file_list.splice(ind);
-                directory.file_list_directory.splice(ind);
-                if(directory.file_list.length == 0){
+    asset.control_info.required_list.every(x => filePropose.proposing_file.vote_result_list.some(y => x.getIdentifier() == y.user.getIdentifier()))){
+        const event = factory.newEvent('transaction.file', 'ApplyFileEncryptedEvent');
+        event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+        copyProperty(asset,filePropose.proposing_file);
+        event.relative = [...event.relative,...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+        event.file = asset;
+        asset.propose_list = [];
+        if(asset.checksum == ''){
+            event.file_action = 'DELETE'
+            let checkk = true;
+            let arr = asset.uid.split("/");
+            let i = arr.length;
+            let uid = asset.uid;
+            let pre = uid;
+            uid = uid.substr(0,uid.length-arr[i-1].length);
+            while(checkk && i > 1){
+                try{
+                    let directory = await assetRegistry.get(uid);
+                    if (!directory.is_directory) {
+                        throw error(21,{},"error 21");
+                    }
+                    let ind = directory.file_list.findIndex(x => {x == factory.newRelationship(namespace, 'FileEncrypted', pre)});
+                    directory.file_list.splice(ind);
+                    directory.file_list_directory.splice(ind);
                     await assetRegistry.remove(directory);
-                } else{
-                    await assetRegistry.update(directory);
-                    checkk = false;
-                } 
-            } catch (e){
-                throw error(22, e, "error 22");
+                    if(directory.file_list.length == 0){
+                    } else{
+                        await assetRegistry.update(directory);
+                        checkk = false;
+                    } 
+                } catch (e){
+                    throw error(22, e, "error 22");
+                }
+                i--;
+                pre = uid;
+                uid = uid.substr(0,uid.length-1-arr[i-1].length);
             }
-            i--;
-            pre = uid;
-            uid = uid.substr(0,uid.length-1-arr[i-1].length);
+        } else{
+            event.file_action = 'UPDATE'
         }
-    }
-    const event = factory.newEvent('transaction.file', 'AcceptProposedFileEncryptedEvent');
-    event.file = asset;
+        emit(event);
+    } 
+    // else {
+    //     const event = factory.newEvent('transaction.file', 'AcceptProposedFileEncryptedEvent');
+    //     event.file = asset;
+    //     event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+    //     emit(event);
+    // }
+    await assetRegistry.update(asset);
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -293,7 +308,6 @@ async function acceptProposedFileEncrypted(request) {
     log.user = getCurrentParticipant();
     const logRegistry = await getAssetRegistry(log.getFullyQualifiedType());
     await logRegistry.add(log);
-    emit(event);
 }
 
 
@@ -324,8 +338,9 @@ async function rejectProposedFileEncrypted(request) {
         filePropose.proposing_file.vote_result_list[index].is_accept = false;
     };
     await assetRegistry.update(asset);
-    const event = factory.newEvent('transaction.file', 'RejectProposedFileEncryptedEvent');
-    event.file = asset;
+    // const event = factory.newEvent('transaction.file', 'RejectProposedFileEncryptedEvent');
+    // event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
+    // event.file = asset;
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -334,7 +349,7 @@ async function rejectProposedFileEncrypted(request) {
     log.user = getCurrentParticipant();
     const logRegistry = await getAssetRegistry(log.getFullyQualifiedType());
     await logRegistry.add(log);
-    emit(event);
+    // emit(event);
 }
 
 
@@ -359,6 +374,8 @@ async function proposeReadFileEncrypted(request) {
     await assetRegistry.update(asset);
     const event = factory.newEvent('transaction.file', 'ProposeReadFileEncryptedEvent');
     event.file = asset;
+    event.issuer = getCurrentParticipant();
+    event.relative = [...asset.control_info.required_list,...asset.control_info.optional_list].filter(x => x.getIdentifier() != getCurrentParticipant().getIdentifier());
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -400,6 +417,8 @@ async function acceptReadFileEncrypted(request) {
     await assetRegistry.update(asset);
     const event = factory.newEvent('transaction.file', 'AcceptReadFileEncryptedEvent');
     event.file = asset;
+    event.endorser = getCurrentParticipant();
+    event.requester = access_info.user;
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);
@@ -440,8 +459,10 @@ async function rejectReadFileEncrypted(request) {
     crypto.issuer = getCurrentParticipant();
     crypto.encrypted_key = "";
     await assetRegistry.update(asset);
-    const event = factory.newEvent('transaction.file', 'AcceptReadFileEncryptedEvent');
+    const event = factory.newEvent('transaction.file', 'RejectReadFileEncryptedEvent');
     event.file = asset;
+    event.endorser = getCurrentParticipant();
+    event.requester = access_info.user;
     const time = Date.now();
     const log = factory.newResource(namespace, 'Log', request.uid+Date.now());
     log.timestamp = new Date(time);

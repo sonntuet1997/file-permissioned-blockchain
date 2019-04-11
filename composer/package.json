@@ -2,7 +2,7 @@
   "name": "composer",
   "author": "author",
   "description": "Start from scratxch with a blank business network",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "devDependencies": {
     "browserfs": "^1.2.0",
     "chai": "^4.2.0",

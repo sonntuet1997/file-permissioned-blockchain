@@ -69,8 +69,8 @@
             }  
         },
         "peer0.org2.example.com": {
-            "url": "grpcs://127.0.0.1:8051",
-            "eventUrl": "grpcs://127.0.0.1:8053",
+            "url": "grpcs://192.168.1.24:8051",
+            "eventUrl": "grpcs://192.168.1.24:8053",
             "grpcOptions": {
                 "ssl-target-name-override": "peer0.org2.example.com"
             },
@@ -91,7 +91,7 @@
                 "verify": false
             }},
         "ca.org2.example.com": {
-            "url": "https://127.0.0.1:8054",
+            "url": "https://192.168.1.24:8054",
             "caName": "ca.org2.example.com",
             "registrar": {
                 "enrollId": "admin",

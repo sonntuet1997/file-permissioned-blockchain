@@ -26,6 +26,7 @@ transaction UpdateFileEncrypted {
 
 event UpdateFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
 }
 
 transaction DownloadFileEncrypted {
@@ -44,6 +45,7 @@ transaction DeleteFileEncrypted {
 
 event DeleteFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
 }
 
 transaction AcceptProposedFileEncrypted {
@@ -53,6 +55,13 @@ transaction AcceptProposedFileEncrypted {
 
 event AcceptProposedFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
+}
+
+event ApplyFileEncryptedEvent {
+  --> FileEncrypted file
+  o FileAction  file_action
+  --> User[] relative
 }
 
 transaction RejectProposedFileEncrypted {
@@ -62,6 +71,7 @@ transaction RejectProposedFileEncrypted {
 
 event RejectProposedFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
 }
 
 transaction ProposeReadFileEncrypted {
@@ -70,6 +80,8 @@ transaction ProposeReadFileEncrypted {
 
 event ProposeReadFileEncryptedEvent {
   --> FileEncrypted file
+  --> User[] relative
+  --> User issuer
 }
 
 transaction AcceptReadFileEncrypted {
@@ -79,6 +91,8 @@ transaction AcceptReadFileEncrypted {
 
 event AcceptReadFileEncryptedEvent {
   --> FileEncrypted file
+  --> User endorser
+  --> User requester
 }
 
 transaction RejectReadFileEncrypted {
@@ -89,5 +103,7 @@ transaction RejectReadFileEncrypted {
 
 event RejectReadFileEncryptedEvent {
   --> FileEncrypted file
+  --> User endorser
+  --> User requester
 }
 
